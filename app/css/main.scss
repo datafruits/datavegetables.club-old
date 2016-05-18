@@ -5,6 +5,10 @@ body {
   background: salmon;
 }
 
+body.dieing {
+  background: orange;
+}
+
 body.datazone {
   background: url("/images/bricks.png");
   p {
