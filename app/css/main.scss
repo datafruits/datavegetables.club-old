@@ -9,6 +9,29 @@ body.dieing {
   background: orange;
 }
 
+body.sitemap {
+  h1 {
+    font-family: Debussy;
+  }
+  h1.t1 {
+    font-size: 4rem;
+    color: yellow;
+    text-shadow: 3px 3px 3px #333, 7px 7px 0px #ff00fc;
+    transform: rotate(-3.5deg);
+  }
+  h1.t2 {
+    font-size: 3rem;
+    color: #8dff4a;
+    text-shadow: 3px 3px 3px #333, 7px 7px 0px #ff00fc;
+    transform: rotate(1.5deg);
+  }
+  ul {
+    li {
+      list-style: none;
+    }
+  }
+}
+
 body.datazone {
   background: url("/images/bricks.png");
   p {
