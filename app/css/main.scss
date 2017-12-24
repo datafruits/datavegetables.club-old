@@ -36,6 +36,10 @@ body.dieing {
 body.sitemap {
   background: url("/images/pizza_napkin.gif");
   background-size: 25%;
+  p {
+    color: yellow;
+    background: purple;
+  }
   h1 {
     font-family: Debussy;
   }
