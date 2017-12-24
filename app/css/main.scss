@@ -1,6 +1,17 @@
 // bower:scss
 // endbower
 
+@keyframes wiggle3 {
+  from {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(300deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
 @keyframes wiggle2 {
   from {
     transform: rotate(1.5deg);
@@ -36,6 +47,13 @@ body.dieing {
 body.sitemap {
   background: url("/images/pizza_napkin.gif");
   background-size: 25%;
+  .lookslikekirby {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 15%;
+    animation: 60s ease-in infinite wiggle3;
+  }
   p {
     color: yellow;
     background: purple;
